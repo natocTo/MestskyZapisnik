@@ -1,6 +1,6 @@
 .page-enter-active, .page-leave-active,
 .fade-enter-active, .fade-leave-active {
-  transition: opacity .2s ease;
+  transition: opacity .4s ease;
 }
 .page-enter, .page-leave-active,
 .fade-enter, .fade-leave-active {
