@@ -11,8 +11,8 @@
       <h1 class="text-4xl mb-4">Jak přidat nový zápis.</h1>
 
       <p class="text-lg mb-4">
-        Všechny současné zápisky naleznete na této adrese (<a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" rel="nofollower noopener" target="_blank">https://github.com</a>).
-        Zde začíná naše pouť ať už za úpravou stavajícího záznamu či přidání úplně nového.
+        Všechny současné zápisky naleznete na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" rel="nofollower noopener" target="_blank">této adrese</a>.
+        Zde začíná naše pouť jednak za přidáním nového zápisu, tak i za úpravu nebo smázaní toho stavajícího.
       </p>
 
       <h2 class="text-2xl mt-8 mb-4"># Registrace</h2>
