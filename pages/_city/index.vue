@@ -1,7 +1,7 @@
 <template>
-  <main class="container mx-auto px-4">
+  <main class="container">
     <div class="py-8">
-      <div class="flex justify-between items-end pb-4">
+      <div class="flex justify-between items-center pb-4">
         <h2 class="font-mono text-black flex items-center">
           <svg
             width="64"
