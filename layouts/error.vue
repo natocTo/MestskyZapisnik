@@ -1,5 +1,5 @@
 <template>
-  <div class="font-mono container mx-auto px-4 min-h-screen flex justify-center items-center text-center">
+  <div class="font-mono container min-h-screen flex justify-center items-center text-center">
     <div class="py-8">
       <h2 v-if="error.statusCode === 404" class="text-3xl mb-4">
         Hledaná stránka nenalezena :(
