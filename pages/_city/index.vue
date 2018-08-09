@@ -18,9 +18,9 @@
         </h2>
 
         <nuxt-link
-          class="p-2 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
+          class="p-2 ml-4 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
           to="new"
-        >Přidat nový zápis
+        >Chci se zapojit
         </nuxt-link>
       </div>
 
@@ -39,8 +39,9 @@
         <faq
           v-for="(faq, index) in filteredFaqs"
           :key="index"
-          :text="faq">
-        </faq>
+          :text="faq.text"
+          :file="faq.file"
+        ></faq>
       </div>
 
       <div
@@ -117,7 +118,11 @@ export default {
   methods: {
     loadCityFaqs() {
       const city = new RegExp(`^./${this.city}/*`);
-      this.faqs = faqs.keys().filter(faq => city.test(faq)).map(faqs);
+
+      this.faqs = faqs.keys().filter(faq => city.test(faq)).map(faq => ({
+        'file': faq.replace(/^.*[\\\/]/, ''),
+        'text': faqs(faq)
+      }));
     }
   }
 }

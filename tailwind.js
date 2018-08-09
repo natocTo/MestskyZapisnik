@@ -1,10 +1,13 @@
 let colors = {
   transparent: "transparent",
   black: "#22292f",
+  "grey-dark": "#8a8a8a",
   grey: "#b8c2cc",
   "grey-light": "#dae1e7",
   "grey-lightest": "#f5f5f5",
-  white: "#ffffff"
+  white: "#ffffff",
+  blue: "#0366d6",
+  red: "#cb2431"
 };
 
 module.exports = {
@@ -309,7 +312,7 @@ module.exports = {
     tracking: ["responsive"],
     userSelect: ["responsive"],
     verticalAlign: ["responsive"],
-    visibility: ["responsive"],
+    visibility: ["responsive", "group-hover"],
     whitespace: ["responsive"],
     width: ["responsive"],
     zIndex: ["responsive"]
