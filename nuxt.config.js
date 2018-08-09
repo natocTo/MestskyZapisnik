@@ -27,10 +27,9 @@ module.exports = {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     bodyAttrs: {
-      class: "h-full w-full font-sans"
+      class: "h-full w-full"
     }
   },
-  modules: ["@nuxtjs/pwa", ["@nuxtjs/google-analytics", { id: "X1234567" }]],
   generate: {
     routes: cities
   },
@@ -38,10 +37,11 @@ module.exports = {
     mode: "hash",
     base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/mestsky-zapisnik/" : "/"
   },
-  css: ["~/assets/tailwind.css", "~/assets/app.css"],
   manifest: {
     lang: "cs"
   },
+  modules: ["@nuxtjs/pwa", ["@nuxtjs/google-analytics", { id: "X1234567" }]],
+  css: ["~/assets/tailwind.css", "~/assets/app.css"],
   build: {
     extractCSS: true,
     postcss: [
