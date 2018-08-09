@@ -30,7 +30,7 @@
         Obé tlačítka naleznete v pravém horním roku stránky. Celá registrace je samozřejmně zdarma.
       </p>
 
-      <img src="/step_1.jpg" alt="Registrace a přihlášení na Github" class="block mb-8" />
+      <img src="~/assets/step_1.jpg" alt="Registrace a přihlášení na Github" class="block mb-8" />
 
       <p class="text-lg mb-4">
         Na stránce registrace vyplníte přezdívku (username), emailouvou adresu (email address) a heslo (password). Klikneme na tlačíko
@@ -82,7 +82,7 @@
         Můžete doplnit třeba zdroje Vašich informací a podobně. Není to ale povinné.
       </p>
 
-      <img src="/step_2.jpg" alt="Přidání nového zápisu" class="block mb-8" />
+      <img src="~/assets/step_2.jpg" alt="Přidání nového zápisu" class="block mb-8" />
 
       <h2 class="text-2xl mt-8 mb-4"># Úprava zápisu</h2>
 
@@ -124,3 +124,13 @@
     </article>
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Zapoje se - Městský zápisník'
+    }
+  }
+}
+</script>
