@@ -53,7 +53,8 @@
         </h2>
 
         <p class="text-xl">
-          Budeme rádi, pokud naleznete odpověď někde jinde, když přidáte tuto informaci i k nám, aby další lidé již tuto informaci zde dohledali.
+          A v případě že se Vám podaří informaci dohledat jinde. Budeme moc rádi
+          když <nuxt-link to="contributor" class="no-underline text-blue">přidáte</nuxt-link> tuto informaci i k nám. Další lidé ji tu pak snadno dohledají.
         </p>
       </div>
     </div>

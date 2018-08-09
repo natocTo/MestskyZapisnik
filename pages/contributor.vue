@@ -11,7 +11,7 @@
       <h1 class="text-3xl mb-8">Jak přidat, upravit či vymazat zápis.</h1>
 
       <p class="text-lg mb-4">
-        Všechny současné zápisky naleznete na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" rel="nofollower noopener" target="_blank">Githubu</a>.
+        Všechny současné zápisky naleznete na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollower noopener" target="_blank">Githubu</a>.
         Zde začíná naše pouť jak za přidáním nového zápisu, tak i za úpravu nebo smázaní jichž existujícího.
       </p>
 
@@ -49,8 +49,8 @@
       </p>
 
       <p class="text-lg mb-4">
-        Přejdeme teda na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" rel="nofollow noopener" target="_blank">výpis všech zápisů</a>.
-        Klikneme na tlačítko <a href="https://github.com/natocTo/mestsky-zapisnik/new/master/faqs/svitavy" rel="nofollow noopener" target="_blank">vytvořit nový soubor</a> (Create new file).
+        Přejdeme teda na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">výpis všech zápisů</a>.
+        Klikneme na tlačítko <a href="https://github.com/natocTo/mestsky-zapisnik/new/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">vytvořit nový soubor</a> (Create new file).
         Na další stránce nám skočí kurzor na první povinnou položku a to je název souboru (Name your file).
         Napíšeme tam název souboru korespondující s tématem našeho zápisu (např: chceme psát o Svitavském bazénu, tak napíšeme SvitavyBazen.md).
         Koncovka (.md) je povinná a musí tak končit každý nový zápis.
