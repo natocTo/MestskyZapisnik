@@ -104,13 +104,16 @@ export default {
       const searchRegex = new RegExp(search, "gi");
 
       return this.faqs
-        .filter(faq => faq.toLowerCase().indexOf(search) !== -1)
+        .filter(faq => faq.text.toLowerCase().indexOf(search) !== -1)
         .map(faq => {
           if (search.length < 4) return faq;
 
-          return faq.replace(searchRegex, match => {
-            return '<span class="highlight">' + match + '</span>';
-          })
+          return {
+            "file": faq.file,
+            "text": faq.text.replace(searchRegex, match => {
+              return '<span class="highlight">' + match + '</span>';
+            })
+          }
         });
     }
   },
