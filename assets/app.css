@@ -11,11 +11,63 @@
   background: yellow;
 }
 
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 .faq h2 {
+  font-size: 1.8rem;
   color: #22292f;
   margin-bottom: 0.75rem;
 }
 
-.faq ul {
+.faq h3 {
+  font-size: 1.4rem;
+  color: #22292f;
+  margin-bottom: 0.75rem;
+}
+
+.faq h3:before {
+  content: '#';
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 5px;
+  color: #22292f;
+}
+
+.faq p {
+  margin-bottom: 1rem;
+}
+
+.faq table {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  background-color: transparent;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.faq table th,
+.faq table td {
+  text-align: left;
+  padding: 0.75rem;
+  vertical-align: top;
+  border: 1px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.faq table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.faq table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.faq ul,
+.faq ol {
   padding-left: 2rem;
 }

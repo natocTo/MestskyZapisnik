@@ -35,7 +35,7 @@
         </a>
       </div>
       <article
-        class="font-mono text-grey-darkest border-b-2 border-dotted border-grey leading-normal pt-2 pb-6 mt-4"
+        class="font-mono text-grey-darkest border-b-4 border-dotted border-grey-dark leading-normal pt-2 pb-6 mt-4"
         v-html="text"
       ></article>
     </div>
