@@ -40,7 +40,7 @@ module.exports = {
   manifest: {
     lang: "cs"
   },
-  modules: ["@nuxtjs/pwa", ["@nuxtjs/google-analytics", { id: "X1234567" }]],
+  modules: ["@nuxtjs/pwa", ["@nuxtjs/google-analytics", { id: "123666309-1" }]],
   css: ["~/assets/tailwind.css", "~/assets/app.css"],
   build: {
     extractCSS: true,
