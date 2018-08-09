@@ -49,8 +49,8 @@
       </p>
 
       <p class="text-lg mb-4">
-        Přejdeme teda na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" rel="nofollower noopener" target="_blank">výpis všech zápisů</a>.
-        Klikneme na tlačítko <a href="https://github.com/natocTo/mestsky-zapisnik/new/master/faqs/svitavy" rel="nofollower noopener" target="_blank">vytvořit nový soubor</a> (Create new file).
+        Přejdeme teda na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" rel="nofollow noopener" target="_blank">výpis všech zápisů</a>.
+        Klikneme na tlačítko <a href="https://github.com/natocTo/mestsky-zapisnik/new/master/faqs/svitavy" rel="nofollow noopener" target="_blank">vytvořit nový soubor</a> (Create new file).
         Na další stránce nám skočí kurzor na první povinnou položku a to je název souboru (Name your file).
         Napíšeme tam název souboru korespondující s tématem našeho zápisu (např: chceme psát o Svitavském bazénu, tak napíšeme SvitavyBazen.md).
         Koncovka (.md) je povinná a musí tak končit každý nový zápis.

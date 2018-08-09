@@ -7,7 +7,7 @@
         <a
           class="inline-block p-1"
           :href="edit"
-          rel="noopenner nofollow"
+          rel="nofollow noopener"
           title="Upravit zápis"
           target="_blank"
         >
@@ -22,7 +22,7 @@
         <a
           class="inline-block p-1"
           :href="remove"
-          rel="noopenner nofollow"
+          rel="nofollow noopener"
           title="Vymazat zápis"
           target="_blank"
         >
