@@ -38,7 +38,9 @@ module.exports = {
     base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/mestsky-zapisnik/" : "/"
   },
   manifest: {
-    lang: "cs"
+    lang: "cs",
+    name: "Městský zápisník",
+    short_name: "Zápisník"
   },
   modules: ["@nuxtjs/pwa", ["@nuxtjs/google-analytics", { id: "123666309-1" }]],
   css: ["~/assets/tailwind.css", "~/assets/app.css"],
