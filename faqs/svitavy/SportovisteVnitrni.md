@@ -24,7 +24,7 @@
 
 | Název                          | Adresa            | Telefon                  |
 | ------------------------------ | ----------------- | ------------------------ |
-| Garni HotelMenu                | Riegrova 7        | 461 311 385, 774 459 999 |
+| Garni Hotel                    | Riegrova 7        | 461 311 385, 774 459 999 |
 | Bowlingové a squashové centrum | Olbrachtova 1a    | 461 542 555              |
 | Herna a Bar Brooklyn           | Revoluční 352/1a  | 736 261 878              |
 | Tenisové centrum Na kurtech    | U Stadionu 528/15 | 606 245 983              |

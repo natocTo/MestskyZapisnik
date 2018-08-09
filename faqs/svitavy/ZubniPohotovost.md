@@ -10,15 +10,15 @@
 | 20. 21. 1. 2018      | Březová n. Svitavou, Brněnská 48     | 608 981 868 |
 | 27.- 28. 1. 2018     | Moravská Třebová,Svitavská 325/36    | 461 352 210 |
 | 3. - 4. 2. 2018      | Svitavy, U Stadionu 1207/42          | 461 532 253 |
-| 10. - 11. 2. 20018   | Městečko Trnávka 5                   | 461 329 181 |
+| 10. - 11. 2. 2018    | Městečko Trnávka 5                   | 461 329 181 |
 | 17. - 18. 2. 2018    | Svitavy, Dimitrovova 799/4           | 604 278 684 |
 | 24. - 25. 2. 2018    | Svitavy, Pavlovova 24                | 777 511 011 |
 | 3. - 4. 3. 2018      | Staré Město 134                      | 461 312 501 |
-| 10. - 11. 3. 20018   | Brněnec 90                           | 461 523 140 |
+| 10. - 11. 3. 2018    | Brněnec 90                           | 461 523 140 |
 | 17. - 18. 3. 2018    | Jevíčko, Palackého nám. 20           | 461 326 378 |
 | 24. - 25. 3. 2018    | Jevíčko, Palackého nám. 20           | 461 326 378 |
 | 30.03.2018           | Hradec nad Svitavou 549              | 461 548 230 |
-| 31. 3. - 1. 4. 20018 | Svitavy, Dimitrovova 799/4           | 461 532 970 |
+| 31. 3. - 1. 4. 2018  | Svitavy, Dimitrovova 799/4           | 461 532 970 |
 | 02.04.2018           | Moravská Třebová, Svitavská 36       | 734 113 860 |
 | 7. - 8. 4. 2018      | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
 | 14. - 15. 4. 2018    | Svitavy, Hraniční 9                  | 775 216 543 |
@@ -48,7 +48,7 @@
 | 1. - 2. 9. 2018      | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
 | 8. - 9. 9. 2018      | Svitavy, Hraniční 9                  | 775 216 543 |
 | 15. - 16. 9. 2018    | Březová n. Svitavou, Brněnská 48     | 608 981 868 |
-| 22. - 23. 9. 20018   | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
+| 22. - 23. 9. 2018    | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
 | 28.09.2018           | Svitavy, Dimitrovova 799/4           | 776 117 026 |
 | 29. - 30. 9. 2018    | Svitavy, Pavlovova 5                 | 461 533 987 |
 | 6. - 7. 10. 2018     | Svitavy, Dimitrovova 799/4           | 461 532 970 |
