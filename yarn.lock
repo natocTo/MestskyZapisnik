@@ -3929,9 +3929,9 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt-edge@^2.0.0-25562603.52780d3:
-  version "2.0.0-25562603.52780d3"
-  resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25562603.52780d3.tgz#c5dbfa10d4908a17e3492b1392c208ae727667dc"
+nuxt-edge@^2.0.0-25564764.427e836:
+  version "2.0.0-25564764.427e836"
+  resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25564764.427e836.tgz#7c783efdd482383271a36d21e93f93b386f97513"
   dependencies:
     "@nuxtjs/friendly-errors-webpack-plugin" "^2.0.2"
     "@nuxtjs/youch" "^4.2.3"
