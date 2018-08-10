@@ -2,6 +2,7 @@ let fs = require("fs");
 let path = require("path");
 let glob = require("glob-all");
 let PurgecssPlugin = require("purgecss-webpack-plugin");
+let sanitizeHtml = require("sanitize-html");
 
 class TailwindExtractor {
   static extract(content) {
@@ -60,7 +61,10 @@ module.exports = {
           {
             loader: "markdown-loader",
             options: {
-              renderer: require(path.join(__dirname, "markedRenderer.js"))
+              renderer: require(path.join(__dirname, "markedRenderer.js")),
+              headerIds: false,
+              sanitize: true,
+              sanitizer: sanitizeHtml
             }
           }
         ]
