@@ -7,7 +7,7 @@
 | Bon-car Svitavy s.r.o. | U Tří mostů 847/7        | 461 550 650              | Ano        |
 | AMD servis             | náměstí Míru 89          | 603 449 209, 461 531 740 | Ano        |
 | Autoservis Hrnčíř      | Zadní 182/3              | 605 291 413              | Ano        |
-| Autoservis Chosé       |                          | 737 963 456              | Ano        |
+| Autoservis Chosé       | -                        | 737 963 456              | Ano        |
 | Livecar                | Kapitána Jaroše 65/47    | 604 233 234              | Ano        |
 | OMV                    | Kapitána Jaroše 727/64   | 461 532 888              | Ano        |
 | Autocentrum Svitavy    | Petrusova 1658/2         | 461 541 019, 604 243 292 | Ano        |
