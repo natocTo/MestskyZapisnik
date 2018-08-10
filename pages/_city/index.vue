@@ -101,18 +101,16 @@ export default {
       if (this.search === "") return this.faqs;
 
       const search = this.search.toLowerCase();
-      const searchRegex = new RegExp(search, "gi");
+      const searchRegex = new RegExp("(" + search + ")(?!([^<]+)?>)", "gi");
 
       return this.faqs
-        .filter(faq => faq.text.toLowerCase().indexOf(search) !== -1)
+        .filter(faq => faq.text.replace(/(<([^>]+)>)/ig, '').toLowerCase().indexOf(search) !== -1)
         .map(faq => {
-          if (search.length < 4) return faq;
+          if (search.length < 3) return faq;
 
           return {
             "file": faq.file,
-            "text": faq.text.replace(searchRegex, match => {
-              return '<span class="highlight">' + match + '</span>';
-            })
+            "text": faq.text.replace(searchRegex, '<span class="highlight">$1</span>')
           }
         });
     }
