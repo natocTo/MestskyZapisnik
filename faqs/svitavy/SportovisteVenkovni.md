@@ -1,7 +1,5 @@
 ## Sportoviště venkovní
 
-<div class="table-responsive">
-
 | Název                      | Adresa          | Telefon                  |
 | -------------------------- | --------------- | ------------------------ |
 | Svitavský stadion          | U Stadionu 15   | 461 533 639, 603 246 345 |
@@ -13,5 +11,3 @@
 | Areál volného času Cihelna | Hálkova 2138/10 | 605 261 129              |
 | Dopravní hřiště            | Sokolovská      | 603 150 920              |
 | Dětské lanové centrum      | Olbrachtova     | 461 534 300              |
-
-</div>

@@ -1,7 +1,5 @@
 ## Zubní pohotovost 2018
 
-<div class="table-responsive">
-
 | Termín               | Adresa                               | Telefon     |
 |----------------------|--------------------------------------|-------------|
 | 01.01.2018           | Svitavy, Purkyňova 249/16            | 731 201 180 |
@@ -74,5 +72,3 @@
 | 5.-  6. 1. 2019      | Svitavy, Hraniční 9                  | 775 216 543 |
 | 12. - 13. 1. 2019    | Jevíčko, Palackého 20                | 774 326 241 |
 | 19. - 20. 1. 2019    | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
-
-</div>

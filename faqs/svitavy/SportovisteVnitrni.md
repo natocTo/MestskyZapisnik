@@ -2,8 +2,6 @@
 
 ### Sportovní haly a tělocvičny
 
-<div class="table-responsive">
-
 | Název                                              | Adresa             | Telefon                 |
 |----------------------------------------------------|--------------------|-------------------------|
 | Sportovní areál ZŠ Riegrova                        | Riegrova 4         | 739 630 519, 739 630 517 |
@@ -16,11 +14,7 @@
 | Heat program                                       | Pražská 2          | 777 039 042             |
 | Tenisová hala Na Kurtech                           | U Stadionu 943/17B | 732 380 315, 603 793 463 |
 
-</div>
-
 ### Billiardy a kulečníky
-
-<div class="table-responsive">
 
 | Název                          | Adresa            | Telefon                  |
 | ------------------------------ | ----------------- | ------------------------ |
@@ -29,11 +23,7 @@
 | Herna a Bar Brooklyn           | Revoluční 352/1a  | 736 261 878              |
 | Tenisové centrum Na kurtech    | U Stadionu 528/15 | 606 245 983              |
 
-</div>
-
 ### Bowlingy a kuželny
-
-<div class="table-responsive">
 
 | Název                          | Adresa          | Telefon     |
 | ------------------------------ | --------------- | ----------- |
@@ -42,16 +32,10 @@
 | Bowlingové a squashové centrum | Olbrachtova 1a  | 461 542 555 |
 | SK Sportcentrum                | kpt. Jaroše     | 777 550 730 |
 
-</div>
-
 ### Ostatní sportoviště
-
-<div class="table-responsive">
 
 | Název                          | Adresa         | Telefon     |
 | ------------------------------ | -------------- | ----------- |
 | Střelnice                      | Pražská 2      | 461 530 266 |
 | Krytý bazén                    | Riegrova 5     | 731 637 937 |
 | Bowlingové a squashové centrum | Olbrachtova 1a | 461 542 555 |
-
-</div>

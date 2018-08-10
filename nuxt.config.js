@@ -47,7 +47,7 @@ module.exports = {
   build: {
     extractCSS: true,
     postcss: [
-      require("tailwindcss")(path.join(__dirname, "./tailwind.js")),
+      require("tailwindcss")(path.join(__dirname, "tailwind.js")),
       require("autoprefixer")
     ],
     extend(config, { isDev }) {
@@ -60,7 +60,7 @@ module.exports = {
           {
             loader: "markdown-loader",
             options: {
-              headerIds: false
+              renderer: require(path.join(__dirname, "markedRenderer.js"))
             }
           }
         ]
@@ -70,9 +70,9 @@ module.exports = {
         config.plugins.push(
           new PurgecssPlugin({
             paths: glob.sync([
-              path.join(__dirname, "./pages/**/*.vue"),
-              path.join(__dirname, "./layouts/**/*.vue"),
-              path.join(__dirname, "./components/**/*.vue")
+              path.join(__dirname, "pages/**/*.vue"),
+              path.join(__dirname, "layouts/**/*.vue"),
+              path.join(__dirname, "components/**/*.vue")
             ]),
             extractors: [
               {

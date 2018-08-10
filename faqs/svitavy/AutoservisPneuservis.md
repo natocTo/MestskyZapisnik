@@ -1,11 +1,9 @@
 ## Autoservisy a Pneuservisy
 
-<div class="table-responsive">
-
 | Název                  | Adresa                   | Telefon                  | Pneuservis |
 | ---------------------- | ------------------------ | ------------------------ | ---------- |
 | Bon-car Svitavy s.r.o. | U Tří mostů 847/7        | 461 550 650              | Ano        |
-| AMD servis             | náměstí Míru 89          | 603 449 209, 461 531 740 | Ano        |
+| AMD servis             | Náměstí Míru 89          | 603 449 209, 461 531 740 | Ano        |
 | Autoservis Hrnčíř      | Zadní 182/3              | 605 291 413              | Ano        |
 | Autoservis Chosé       | -                        | 737 963 456              | Ano        |
 | Livecar                | Kapitána Jaroše 65/47    | 604 233 234              | Ano        |
@@ -26,5 +24,3 @@
 | Mobilservis            | Bezručova 1147/9a        | 461 534 740, 608 504 004 | Ano        |
 | Oldřich Bureš          | Jana Želivského 186/25   | 604 816 020, 461 534 494 | Ano        |
 | Pneuservis Nekvinda    | Průmyslová 2157/4        | 461 530 135, 777 730 423 | Ano        |
-
-</div>
