@@ -12,9 +12,43 @@
   background: yellow;
 }
 
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.faq h2 {
+  font-size: 1.8rem;
+  color: #22292f;
+  margin-bottom: 0.75rem;
+}
+
+.faq h3 {
+  font-size: 1.4rem;
+  color: #22292f;
+  margin-bottom: 0.75rem;
+}
+
+.faq h3:before {
+  content: '#';
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 5px;
+  color: #22292f;
+}
+
+.faq p {
+  margin-bottom: 1rem;
+}
+
 .faq table {
+  width: 100%;
   background-color: transparent;
   border: 1px solid #dee2e6;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .faq table th,
