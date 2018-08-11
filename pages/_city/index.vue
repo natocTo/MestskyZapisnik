@@ -2,19 +2,7 @@
   <main class="container">
     <div class="py-8">
       <div class="flex justify-between items-center pb-4">
-        <h2 class="font-mono text-black flex items-center">
-          <svg
-            class="hidden sm:inline-block h-16 w-16"
-            viewBox="0 0 1792 1792"
-            xmlns="http://www.w3.org/2000/svg">
-              <path d="M1596 380q28 28 48 76t20 88v1152q0 40-28 68t-68 28h-1344q-40 0-68-28t-28-68v-1600q0-40 28-68t68-28h896q40 0 88 20t76 48zm-444-244v376h376q-10-29-22-41l-313-313q-12-12-41-22zm384 1528v-1024h-416q-40 0-68-28t-28-68v-416h-768v1536h1280zm-1024-864q0-14 9-23t23-9h704q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-14 0-23-9t-9-23v-64zm736 224q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h704zm0 256q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h704z"/>
-          </svg>
-
-          <div class="inline-block ml-2">
-            <small class="block font-normal text-base leading-none">Městský zápisník</small>
-            <span class="text-4xl" v-text="cityName"></span>
-          </div>
-        </h2>
+        <logo :city="cityName"></logo>
 
         <nuxt-link
           class="p-2 ml-4 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
@@ -62,12 +50,14 @@
 </template>
 
 <script>
+import Logo from "~/components/Logo.vue";
 import Faq from "~/components/Faq.vue";
 import cities from "~/cities.js";
 const faqs = require.context("~/faqs", true, /\.md/);
 
 export default {
   components: {
+    Logo,
     Faq
   },
 
@@ -119,12 +109,14 @@ export default {
 
   methods: {
     loadCityFaqs() {
-      const city = new RegExp(`^./${this.city}/*`);
+      const city = new RegExp(`^\.\/${this.city}\/`);
 
-      this.faqs = faqs.keys().filter(faq => city.test(faq)).map(faq => ({
-        'file': faq.replace(/^.*[\\\/]/, ''),
-        'text': faqs(faq)
-      }));
+      this.faqs = faqs.keys()
+        .filter(faq => city.test(faq))
+        .map(faq => ({
+          'file': faq.replace(/^.*[\\\/]/, ''),
+          'text': faqs(faq)
+        }));
     }
   }
 }
