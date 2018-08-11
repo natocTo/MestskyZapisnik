@@ -7,9 +7,9 @@
 | Penzion No.10                         | T. G. Masaryka 10   | 775 912 912              |
 | Penzion restaurant Oáza               | Kpt. Jaroše 84      | 721 604 663              |
 | Penzion Vermon                        | Česká 6/1           | 603 109 648              |
-| Ubytování ve Svitavách - náměstí Míru | náměstí Míru 13     | 608 615 250, 733 748 337 |
-| Ubytování ve Svitavách - Vojanova     | Vojanova 3          | 608 615 250, 733 748 337 |
-| Ottendorferův dům                     | náměstí Míru 1      | 461 532 704, 777 247 437 |
+| Ubytování Náměstí Míru                | Náměstí Míru 13     | 608 615 250, 733 748 337 |
+| Ubytování Vojanova                    | Vojanova 3          | 608 615 250, 733 748 337 |
+| Ottendorferův dům                     | Náměstí Míru 1      | 461 532 704, 777 247 437 |
 | Penzion Zlatý lev                     | Pražská 16          | 608 024 878, 602 623 555 |
 | Garni Hotel                           | Riegrova 7          | 461 311 385, 774 459 999 |
 | Hotel restaurace Slavia               | Náměstí Míru 134/72 | 608 454 545              |

@@ -27,7 +27,7 @@
 
 | Název                          | Adresa          | Telefon     |
 | ------------------------------ | --------------- | ----------- |
-| Kavárna Rarášek                | nám. Míru 11/89 | 606 474 063 |
+| Kavárna Rarášek                | Náměstí Míru 11/89 | 606 474 063 |
 | Maják                          | Mýtní 6         | 778 026 533 |
 | Bowlingové a squashové centrum | Olbrachtova 1a  | 461 542 555 |
 | SK Sportcentrum                | kpt. Jaroše     | 777 550 730 |
