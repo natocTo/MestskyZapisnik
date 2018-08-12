@@ -44,7 +44,10 @@ module.exports = {
     short_name: "Zápisník SY"
   },
   modules: ["@nuxtjs/pwa"],
-  plugins: [{ src: "~plugins/ga.js", ssr: false }],
+  plugins: [
+    { src: "~plugins/find-polyfill.js", ssr: false },
+    { src: "~plugins/ga.js", ssr: false }
+  ],
   css: ["~/assets/tailwind.css", "~/assets/app.css"],
   build: {
     extractCSS: true,
