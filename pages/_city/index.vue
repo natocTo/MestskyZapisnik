@@ -2,7 +2,7 @@
   <main class="container">
     <div class="py-8">
       <div class="flex justify-between items-center pb-4">
-        <logo :city="cityName"></logo>
+        <logo :city="city"></logo>
 
         <nuxt-link
           class="p-2 ml-4 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
@@ -68,13 +68,12 @@ export default {
 
   head () {
     return {
-      title: `${this.cityName} - Městský zápisník`
+      title: `${this.city} - Městský zápisník`
     };
   },
 
   data() {
     return {
-      city: this.$route.params.city,
       search: "",
       faqs: []
     }
@@ -89,8 +88,8 @@ export default {
   },
 
   computed: {
-    cityName() {
-      return cities.find(city => city.path === this.city).name;
+    city() {
+      return cities.find(city => city.path === this.$route.params.city).name;
     },
 
     filteredFaqs() {
@@ -114,7 +113,7 @@ export default {
 
   methods: {
     loadCityFaqs() {
-      const city = new RegExp(`^\.\/${this.city}\/`);
+      const city = new RegExp(`^\.\/${this.$route.params.city}\/`);
 
       this.faqs = faqs.keys()
         .filter(faq => city.test(faq))
