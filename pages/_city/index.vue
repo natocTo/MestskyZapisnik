@@ -12,6 +12,7 @@
       </div>
 
       <input
+        ref="search"
         class="font-mono p-5 text-lg mt-2 mb-8 shadow appearance-none border rounded w-full"
         type="text"
         aria-label="Vyhledávání"
@@ -81,6 +82,10 @@ export default {
 
   created() {
     this.loadCityFaqs();
+  },
+
+  mounted() {
+    this.$refs.search.focus();
   },
 
   computed: {
