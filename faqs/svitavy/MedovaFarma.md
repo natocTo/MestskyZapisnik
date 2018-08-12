@@ -1,6 +1,6 @@
 ## Medová farma
 
-Nabízíme prodej medových výrobků pro běžné spotřebitele a také profesionální potřeby pro včelaře.
+Nabízí prodej medových výrobků pro běžné spotřebitele a také profesionální potřeby pro včelaře.
 Více informací na [WWW stránkách](https://www.medfarm.cz)
 
 | Adresa             | Telefon     | Email               |
