@@ -41,9 +41,10 @@ module.exports = {
   manifest: {
     lang: "cs",
     name: "Městský zápisník",
-    short_name: "Zápisník"
+    short_name: "Zápisník SY"
   },
-  modules: ["@nuxtjs/pwa", ["@nuxtjs/google-analytics", { id: "123666309-1" }]],
+  modules: ["@nuxtjs/pwa"],
+  plugins: [{ src: "~plugins/ga.js", ssr: false }],
   css: ["~/assets/tailwind.css", "~/assets/app.css"],
   build: {
     extractCSS: true,

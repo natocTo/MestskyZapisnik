@@ -8,8 +8,8 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^2.0.8",
+    "ga-lite": "^2.0.1",
     "nuxt-edge": "^2.0.0-25564764.427e836"
   },
   "scripts": {
