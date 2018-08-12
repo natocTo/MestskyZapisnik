@@ -21,12 +21,74 @@
     >
 
     <template v-if="filteredFaqs.length > 0">
-      <faq
-        v-for="(faq, index) in filteredFaqs"
-        :key="index"
-        :text="faq.text"
-        :file="faq.file"
-      ></faq>
+      <paginator
+        :data="filteredFaqs"
+        :page="page"
+        @totalPageChanged="totalPageChanged"
+      >
+        <div slot-scope="{subset, isFirstPage, isLastPage}">
+          <faq
+            v-for="(faq, index) in subset"
+            :key="index"
+            :text="faq.text"
+            :file="faq.file"
+          ></faq>
+
+          <div class="flex items-center justify-between">
+            <button
+              :disabled="isFirstPage"
+              @click="prevPage"
+              class="inline-flex items-center p-2 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
+              :class="{ 'opacity-50 cursor-not-allowed': isFirstPage }"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline-block h-4 w-4 mr-2"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 8 8 12 12 16"></polyline>
+                <line x1="16" y1="12" x2="8" y2="12"></line>
+              </svg>
+
+              <span>Předchozí <span class="hidden sm:inline-block">zápisky</span></span>
+            </button>
+
+            <button
+              :disabled="isLastPage"
+              @click="nextPage"
+              class="inline-flex items-center p-2 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
+              :class="{ 'opacity-50 cursor-not-allowed': isLastPage }"
+            >
+              <span>Další <span class="hidden sm:inline-block">zápisky</span></span>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline-block h-4 w-4 ml-2"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 16 16 12 12 8"></polyline>
+                <line x1="8" y1="12" x2="16" y2="12"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </paginator>
     </template>
 
     <div
@@ -46,13 +108,18 @@
 </template>
 
 <script>
+import Paginator from "~/components/Paginator.vue";
 import Logo from "~/components/Logo.vue";
 import Faq from "~/components/Faq.vue";
 import cities from "~/cities.js";
+import scrollTop from "~/utils/scrollTop.js";
 const faqs = require.context("~/faqs", true, /\.md/);
 
 export default {
+  name: "City",
+
   components: {
+    Paginator,
     Logo,
     Faq
   },
@@ -69,6 +136,7 @@ export default {
 
   data() {
     return {
+      page: 1,
       search: "",
       faqs: []
     }
@@ -116,6 +184,22 @@ export default {
           'file': faq.replace(/^.*[\\\/]/, ''),
           'text': faqs(faq)
         }));
+    },
+
+    nextPage() {
+      this.page = this.page + 1;
+      scrollTop();
+    },
+
+    prevPage() {
+      this.page = this.page - 1;
+      scrollTop();
+    },
+
+    totalPageChanged(current, previous) {
+      if (current !== previous) {
+        this.page = 1;
+      }
     }
   }
 }
