@@ -20,8 +20,8 @@ svg .line1 {
 
 svg .line2,
 svg .line3 {
-  stroke-dasharray: 8px;
-  stroke-dashoffset: 8px;
+  stroke-dasharray: 10px;
+  stroke-dashoffset: 11px;
   animation: offset .8s linear forwards;
 }
 
