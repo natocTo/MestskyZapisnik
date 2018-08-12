@@ -1,4 +1,4 @@
-## Autoservisy a Pneuservisy
+## Autoservisy a pneuservisy
 
 | Název                  | Adresa                   | Telefon                  | Pneuservis |
 | ---------------------- | ------------------------ | ------------------------ | ---------- |
