@@ -1,51 +1,46 @@
 <template>
-  <main class="container">
-    <div class="py-8">
-      <div class="flex justify-between items-center pb-4">
-        <logo :city="city"></logo>
+  <main class="container py-8">
+    <div class="flex justify-between items-center pb-4">
+      <logo :city="city"></logo>
 
-        <nuxt-link
-          class="p-2 ml-4 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
-          to="contributor"
-        >Chci se zapojit
-        </nuxt-link>
-      </div>
+      <nuxt-link
+        class="p-2 ml-4 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
+        to="contributor"
+      >Chci se zapojit
+      </nuxt-link>
+    </div>
 
-      <input
-        ref="search"
-        class="font-mono p-5 text-lg mt-2 mb-8 shadow appearance-none border rounded w-full"
-        type="text"
-        aria-label="Vyhledávání"
-        placeholder="Zadejte hledaný text.."
-        :value="search"
-        @input="search = $event.target.value"
-      >
+    <input
+      ref="search"
+      class="font-mono p-5 text-lg mt-2 mb-8 shadow appearance-none border rounded w-full"
+      type="text"
+      aria-label="Vyhledávání"
+      placeholder="Zadejte hledaný text.."
+      :value="search"
+      @input="search = $event.target.value"
+    >
 
-      <div
-        class="py-4"
-        v-if="filteredFaqs.length > 0"
-      >
-        <faq
-          v-for="(faq, index) in filteredFaqs"
-          :key="index"
-          :text="faq.text"
-          :file="faq.file"
-        ></faq>
-      </div>
+    <template v-if="filteredFaqs.length > 0">
+      <faq
+        v-for="(faq, index) in filteredFaqs"
+        :key="index"
+        :text="faq.text"
+        :file="faq.file"
+      ></faq>
+    </template>
 
-      <div
-        class="font-mono tracking-wide leading-normal sm:text-justify max-w-md py-4 mb-16"
-        v-else
-      >
-        <h2 class="text-3xl pb-2">
-          Nebylo nic nalezeno :(
-        </h2>
+    <div
+      class="font-mono tracking-wide leading-normal sm:text-justify max-w-md py-4 mb-16"
+      v-else
+    >
+      <h2 class="text-3xl pb-2">
+        Nebylo nic nalezeno :(
+      </h2>
 
-        <p class="text-xl">
-          A v případě že se Vám podaří informaci dohledat jinde. Budeme moc rádi
-          když <nuxt-link to="contributor" class="no-underline text-blue">přidáte</nuxt-link> tuto informaci i k nám. Další lidé ji tu pak snadno dohledají.
-        </p>
-      </div>
+      <p class="text-xl">
+        A v případě že se Vám podaří informaci dohledat jinde. Budeme moc rádi
+        když <nuxt-link to="contributor" class="no-underline text-blue">přidáte</nuxt-link> tuto informaci i k nám. Další lidé ji tu pak snadno dohledají.
+      </p>
     </div>
   </main>
 </template>
