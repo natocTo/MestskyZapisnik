@@ -1,7 +1,7 @@
 import galite from "ga-lite";
 
 export default ({ app }) => {
-  if (process.env.NODE_ENV !== "production") return;
+  if (app.context.isDev) return;
 
   galite("create", "UA-123666309-1", "auto");
 
