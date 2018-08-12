@@ -13,29 +13,29 @@
 }
 
 svg .line1 {
-  stroke-dasharray: 2;
-  stroke-dashoffset: 2;
-  animation: offset .5s linear forwards;
+  stroke-dasharray: 2px;
+  stroke-dashoffset: 2px;
+  animation: offset .4s linear forwards;
 }
 
 svg .line2,
 svg .line3 {
-  stroke-dasharray: 8;
-  stroke-dashoffset: 8;
-  animation: offset 1s linear forwards;
+  stroke-dasharray: 8px;
+  stroke-dashoffset: 8px;
+  animation: offset .8s linear forwards;
 }
 
 svg .line2 {
-  animation-delay: .5s;
+  animation-delay: .4s;
 }
 
 svg .line3 {
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
 }
 
 @keyframes offset {
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 0px;
   }
 }
 
