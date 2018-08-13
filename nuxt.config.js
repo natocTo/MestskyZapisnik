@@ -10,10 +10,6 @@ class TailwindExtractor {
   }
 }
 
-const cities = fs
-  .readdirSync(path.join(__dirname, "faqs"))
-  .map(city => `/${city}`);
-
 module.exports = {
   mode: "spa",
   env: {
@@ -35,10 +31,10 @@ module.exports = {
     }
   },
   generate: {
-    routes: cities
+    subFolders: false,
+    routes: fs.readdirSync(path.join(__dirname, "faqs")).map(city => `/${city}`)
   },
   router: {
-    mode: "hash",
     base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/mestsky-zapisnik/" : "/"
   },
   manifest: {
