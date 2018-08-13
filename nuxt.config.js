@@ -10,6 +10,10 @@ class TailwindExtractor {
   }
 }
 
+const cities = fs
+  .readdirSync(path.join(__dirname, "faqs"))
+  .map(city => `/${city}`);
+
 module.exports = {
   mode: "spa",
   env: {
@@ -32,7 +36,7 @@ module.exports = {
   },
   generate: {
     subFolders: false,
-    routes: fs.readdirSync(path.join(__dirname, "faqs")).map(city => `/${city}`)
+    routes: cities
   },
   router: {
     base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/mestsky-zapisnik/" : "/"
@@ -42,11 +46,16 @@ module.exports = {
     name: "Městský zápisník",
     short_name: "Zápisník SY"
   },
-  modules: ["@nuxtjs/pwa"],
+  modules: ["@nuxtjs/pwa", "@nuxtjs/sitemap"],
   plugins: [
     { src: "~plugins/find-polyfill.js", ssr: false },
     { src: "~plugins/ga.js", ssr: false }
   ],
+  sitemap: {
+    hostname: "https://natocto.github.io/mestsky-zapisnik",
+    generate: true,
+    routes: cities
+  },
   css: ["~/assets/tailwind.css", "~/assets/app.css"],
   build: {
     extractCSS: true,
