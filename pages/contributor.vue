@@ -50,6 +50,7 @@
 
       <p class="text-lg mb-4">
         Přejdeme teda na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">výpis všech zápisů</a>.
+        Pokud chceme přidat novou akci, tak ještě před dalším krokem přejdeme do složky akce.
         Klikneme na tlačítko <a href="https://github.com/natocTo/mestsky-zapisnik/new/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">vytvořit nový soubor</a> (Create new file).
         Na další stránce nám skočí kurzor na první povinnou položku a to je název souboru (Name your file).
         Napíšeme tam název souboru korespondující s tématem našeho zápisu (např: chceme psát o Svitavském bazénu, tak napíšeme SvitavyBazen.md).
