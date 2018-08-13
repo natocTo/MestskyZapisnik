@@ -14,7 +14,7 @@
         v-if="value.length > 0"
         @click="$emit('input', '')"
         title="Vymazat hledání"
-        class="absolute pin-y pin-r mt-2 mr-2"
+        class="absolute pin-y pin-r mt-2 mr-2 focus:outline-none"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
