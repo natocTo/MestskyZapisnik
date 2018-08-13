@@ -12,6 +12,8 @@
       placeholder="Zadejte hledaný text.."
     ></search>
 
+    <events-toggle :events="events" @click="events = !events"></events-toggle>
+
     <template v-if="filteredFaqs.length > 0">
       <paginator
         :data="filteredFaqs"
@@ -24,6 +26,7 @@
             :key="index"
             :text="faq.text"
             :file="faq.file"
+            :event="events"
           ></faq>
 
           <div class="flex items-center justify-between">
@@ -46,6 +49,7 @@ import Logo from "~/components/Logo.vue";
 import Previous from "~/components/Previous.vue";
 import Next from "~/components/Next.vue";
 import Faq from "~/components/Faq.vue";
+import EventsToggle from "~/components/EventsToggle.vue";
 import NoMatch from "~/components/NoMatch.vue";
 import cities from "~/cities.js";
 import scrollTop from "~/utils/scrollTop.js";
@@ -62,6 +66,7 @@ export default {
     Next,
     Logo,
     Faq,
+    EventsToggle,
     NoMatch
   },
 
@@ -79,7 +84,14 @@ export default {
     return {
       page: 1,
       search: "",
-      faqs: []
+      faqs: [],
+      events: false
+    }
+  },
+
+  watch: {
+    events() {
+      this.loadCityFaqs();
     }
   },
 
@@ -113,10 +125,11 @@ export default {
 
   methods: {
     loadCityFaqs() {
-      const city = new RegExp(`^\.\/${this.$route.params.city}\/`);
+      const events = new RegExp(`^\.\/${this.$route.params.city}\/akce`);
+      const city = new RegExp(`^\.\/${this.$route.params.city}\/(?!akce)`);
 
       this.faqs = faqs.keys()
-        .filter(faq => city.test(faq))
+        .filter(faq => this.events ? events.test(faq) : city.test(faq))
         .map(faq => ({
           'file': faq.replace(/^.*[\\\/]/, ''),
           'text': faqs(faq)

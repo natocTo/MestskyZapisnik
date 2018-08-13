@@ -3,7 +3,7 @@
     <div class="absolute pin-r pin-t invisible group-hover:visible">
       <a
         class="inline-block p-1"
-        :href="`${repository}/edit/master/faqs/${city}/${file}`"
+        :href="`${repository}/edit/master/faqs/${city}/${event ? 'akce/' : ''}${file}`"
         rel="nofollow noopener"
         title="Upravit zápis"
         target="_blank"
@@ -18,7 +18,7 @@
 
       <a
         class="inline-block p-1"
-        :href="`${repository}/delete/master/faqs/${city}/${file}`"
+        :href="`${repository}/delete/master/faqs/${city}/${event ? 'akce/' : ''}${file}`"
         rel="nofollow noopener"
         title="Vymazat zápis"
         target="_blank"
@@ -49,6 +49,11 @@ export default {
 
     file: {
       type: String,
+      required: true
+    },
+
+    event: {
+      type: Boolean,
       required: true
     }
   },
