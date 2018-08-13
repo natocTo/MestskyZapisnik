@@ -3,7 +3,7 @@
     <div class="absolute pin-r pin-t invisible group-hover:visible">
       <a
         class="inline-block p-1"
-        :href="edit"
+        :href="`${repository}/edit/master/faqs/${city}/${file}`"
         rel="nofollow noopener"
         title="Upravit zápis"
         target="_blank"
@@ -18,7 +18,7 @@
 
       <a
         class="inline-block p-1"
-        :href="remove"
+        :href="`${repository}/delete/master/faqs/${city}/${file}`"
         rel="nofollow noopener"
         title="Vymazat zápis"
         target="_blank"
@@ -40,15 +40,23 @@
 </template>
 
 <script>
-const repository = "https://github.com/natocTo/mestsky-zapisnik";
-
 export default {
-  props: ["text", "file"],
+  props: {
+    text: {
+      type: String,
+      required: true
+    },
+
+    file: {
+      type: String,
+      required: true
+    }
+  },
 
   data() {
     return {
-      edit: `${repository}/edit/master/faqs/${this.$route.params.city}/${this.file}`,
-      remove: `${repository}/delete/master/faqs/${this.$route.params.city}/${this.file}`
+      repository: process.env.repository,
+      city: this.$route.params.city
     }
   }
 }

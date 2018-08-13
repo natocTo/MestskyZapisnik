@@ -16,6 +16,9 @@ const cities = fs
 
 module.exports = {
   mode: "spa",
+  env: {
+    repository: "https://github.com/natocTo/mestsky-zapisnik"
+  },
   head: {
     meta: [
       { charset: "utf-8" },
