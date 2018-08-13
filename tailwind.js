@@ -1,6 +1,7 @@
 let colors = {
   transparent: "transparent",
   black: "#22292f",
+  "grey-darkest": "#4a4a4a",
   "grey-dark": "#8a8a8a",
   grey: "#b8c2cc",
   "grey-light": "#dae1e7",
