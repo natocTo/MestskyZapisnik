@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="faq group relative mb-4"
-  >
+  <div class="faq group relative mb-4">
     <div class="absolute pin-r pin-t invisible group-hover:visible">
       <a
         class="inline-block p-1"
@@ -42,13 +40,15 @@
 </template>
 
 <script>
+const repository = "https://github.com/natocTo/mestsky-zapisnik";
+
 export default {
   props: ["text", "file"],
 
   data() {
     return {
-      edit: `https://github.com/natocTo/mestsky-zapisnik/edit/master/faqs/svitavy/${this.file}`,
-      remove: `https://github.com/natocTo/mestsky-zapisnik/delete/master/faqs/svitavy/${this.file}`
+      edit: `${repository}/edit/master/faqs/${this.$route.params.city}/${this.file}`,
+      remove: `${repository}/delete/master/faqs/${this.$route.params.city}/${this.file}`
     }
   }
 }
