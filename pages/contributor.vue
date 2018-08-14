@@ -30,14 +30,16 @@
       <img src="~/assets/step_1.jpg" alt="Registrace a přihlášení na Github" class="block mb-8" />
 
       <p class="text-lg mb-4">
-        Na stránce registrace vyplníte přezdívku (Esername), emailovou adresu (Email address) a heslo (Password).
+        Na stránce registrace vyplníte přezdívku (Username), emailovou adresu (Email address) a heslo (Password).
         Klikneme na tlačítko vytvořit účet (Create an account).
         Na další stránce necháme vše jak je. Klikneme tak rovnou na pokračovat (Continue).
         Poslední krok můžeme také rovnou přeskočit (Skip this step).
         Nyní je registrace téměř hotová. Poslední krok je potvrdit registraci na Vaší emailové adrese.
       </p>
 
-      <h2 class="text-2xl mt-8 mb-4"># Přidání zápisu</h2>
+      <h2 class="text-2xl mt-8 mb-4">
+        # Přidání zápisu
+      </h2>
 
       <p class="text-lg mb-4">
         Registraci máme za sebou a jsme přihlášený. Můžeme se vrhnout na vytvoření zápisu.
@@ -49,7 +51,7 @@
         Klikneme na tlačítko vytvořit nový soubor (Create new file).
         Na další stránce nám skočí kurzor na první povinnou položku a to je název souboru (Name your file).
         Napíšeme tam název korespondující s tématem našeho zápisu (např: chceme psát o bazénu, tak napíšeme Bazen.md).
-        Pokud přidáváme novou akci, vložíme před název ještě časové razítko událost.
+        Pokud přidáváme novou akci, vložíme před název ještě časové razítko události.
         To si můžeme vygenerovat například <a href="https://www.epochconverter.com/" class="no-underline text-blue" rel="nofollow noopener" target="_blank">na této stránce</a> (výsledek tak bude třeba 1534198840-Ohnostroj.md).
         Koncovka (.md) je povinná a musí tak končit každý nový zápis.
       </p>
@@ -59,8 +61,7 @@
       </p>
 
       <p class="text-lg mb-4">
-        Držme se příkladu ze svitavského bazénu.
-        Začneme nejdříve nadpisem a to tak že uděláme dvě mřížky (tak se dělá nadpis).
+        Držme se příkladu z bazénu. Začneme nejdříve nadpisem a to tak že uděláme dvě mřížky (tak se dělá nadpis).
         Za tyto mřížky již napíšeme náš nadpis. Pod to sepíšeme text našeho zápisku.
       </p>
 
@@ -72,11 +73,9 @@
 
       <img src="~/assets/step_2.jpg" alt="Přidání nového zápisu" class="block mb-8" />
 
-      <h2 class="text-2xl mt-8 mb-4"># Úprava zápisu</h2>
-
-      <p class="text-lg mb-4">
-        Pokud naleznete chybu na webu, můžete rovnou samy navrhnout opravu.
-      </p>
+      <h2 class="text-2xl mt-8 mb-4">
+        # Úprava zápisu
+      </h2>
 
       <p class="text-lg mb-4">
         Při prohlížení zápisů na tomto webu se vždy v pravé části zápisu zobrazí dvě malé ikonky.
@@ -89,11 +88,9 @@
         Přidáním popisu úpravy (Add ad optional extended description..) nic nezkazíte, ale není povinné.
       </p>
 
-      <h2 class="text-2xl mt-8 mb-4"># Vymazání zápisu</h2>
-
-      <p class="text-lg mb-4">
-        Může se stát že nějaký zápis už není možné upravit, aby odpovídal realitě. Nejlepší je takový zápis vymazat.
-      </p>
+      <h2 class="text-2xl mt-8 mb-4">
+        # Vymazání zápisu
+      </h2>
 
       <p class="text-lg mb-4">
         Po najetí na libovolný zápis na tomto webu se v pravé části zobrazí dvě ikonky.
