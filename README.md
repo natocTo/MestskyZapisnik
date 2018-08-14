@@ -1,5 +1,4 @@
 # Městský zápisník (Svitavy)
-[![Build Status](https://travis-ci.org/natocTo/mestsky-zapisnik.svg?branch=master)](https://travis-ci.org/natocTo/mestsky-zapisnik)
 
 **Všechny informace z města na jednom místě.**
 
