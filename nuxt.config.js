@@ -38,13 +38,10 @@ module.exports = {
     subFolders: false,
     routes: cities
   },
-  router: {
-    base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/mestsky-zapisnik/" : "/"
-  },
   manifest: {
     lang: "cs",
     name: "Městský zápisník",
-    short_name: "Zápisník SY"
+    short_name: "Zápisník"
   },
   modules: ["@nuxtjs/pwa", "@nuxtjs/sitemap"],
   plugins: [
@@ -52,7 +49,7 @@ module.exports = {
     { src: "~plugins/ga.js", ssr: false }
   ],
   sitemap: {
-    hostname: "https://natocto.github.io/mestsky-zapisnik",
+    hostname: "https://mestsky-zapisnik.cz",
     generate: true,
     routes: cities
   },
