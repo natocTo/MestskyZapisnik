@@ -42,13 +42,9 @@
       </h2>
 
       <p class="text-lg mb-4">
-        Registraci máme za sebou a jsme přihlášení. Můžeme se vrhnout na vytvoření zápisu.
-      </p>
-
-      <p class="text-lg mb-4">
         Přejdeme na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">výpis všech zápisů</a>.
-        Pokud chceme přidat novou akci, tak ještě před dalším krokem přejdeme do složky akce.
-        Klikneme na tlačítko vytvořit nový soubor (Create new file).
+        Pokud chceme přidat novou akci, tak ještě přejdeme do složky akce.
+        Poté klikneme na tlačítko vytvořit nový soubor (Create new file).
         Na další stránce nám skočí kurzor na první povinnou položku, a to je název souboru (Name your file).
         Napíšeme tam název korespondující s tématem našeho zápisu (např: chceme psát o bazénu, tak napíšeme Bazen.md).
         Pokud přidáváme novou akci, vložíme před název ještě časové razítko události.
@@ -57,16 +53,16 @@
       </p>
 
       <p class="text-lg mb-4">
-        Nyní můžeme začít sepisovat nový zápis - hned do editoru pod políčkem na nastavení názvu souboru (Edit new file).
+        Nyní můžeme začít sepisovat nový zápis - hned do editoru pod políčkem na nastavení názvu souboru.
       </p>
 
       <p class="text-lg mb-4">
-        Držme se příkladu s bazénem. Začneme nejdříve nadpisem, a to tak, že uděláme dvě mřížky (tak se dělá nadpis).
-        Za tyto mřížky již napíšeme nadpis. Pod něj sepíšeme text našeho zápisku.
+        Držme se příkladu s bazénem. Začneme nejdříve nadpisem, a to tak, že uděláme dvě mřížky (ty značí nadpis).
+        Za tyto mřížky již napíšeme text nadpisu. Pod něj sepíšeme text našeho zápisu.
       </p>
 
       <p class="text-lg mb-4">
-        Máme skoro vyhráno. Poslední krok je odeslat nový zápis ke kontrole.
+        Poslední krok je odeslat nový zápis ke kontrole.
         Na spodní straně stránky klikneme na tlačítko odeslat (Propose new file).
         Před odesláním ještě můžeme doplnit informace pro toho, kdo bude náš záznam kontrolovat (Add an optional extended description..).
       </p>
