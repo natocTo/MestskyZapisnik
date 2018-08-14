@@ -15,8 +15,7 @@
   },
   "scripts": {
     "dev": "nuxt",
-    "generate": "nuxt generate",
-    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
+    "generate": "nuxt generate"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
