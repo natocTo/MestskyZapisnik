@@ -5,10 +5,9 @@
     <footer class="container">
       <p class="font-mono">
         <small v-once>
-          Městský zápisník Svitavy |
-          Made with &#x2764 by <a href="https://www.jakubkotek.cz" rel="noopener nofollow" class="no-underline hover:underline text-black font-bold">Jakub Kotek</a> |
-          &copy; {{ new Date().getFullYear() }} |
-          <a href="https://github.com/natocTo/mestsky-zapisnik" rel="noopener nofollow" class="no-underline hover:underline text-black font-bold">Github repository</a>
+          Městský zápisník &copy; {{ new Date().getFullYear() }} |
+          Vyrobil <a href="https://www.jakubkotek.cz" rel="noopener nofollow" class="no-underline hover:underline text-black font-bold">Jakub Kotek</a> |
+          <a href="https://github.com/natocTo/mestsky-zapisnik" rel="noopener nofollow" class="no-underline hover:underline text-black font-bold">Zdrojové kódy</a>
         </small>
       </p>
     </footer>
