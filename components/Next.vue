@@ -5,7 +5,7 @@
     class="inline-flex items-center p-2 text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"
     :class="{ 'opacity-50 cursor-not-allowed': disabled }"
   >
-    <span>Další</span>
+    <span>Další <span class="hidden sm:inline-block">zápisy</span></span>
 
     <svg
       xmlns="http://www.w3.org/2000/svg"

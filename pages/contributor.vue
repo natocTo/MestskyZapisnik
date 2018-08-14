@@ -42,13 +42,9 @@
       </h2>
 
       <p class="text-lg mb-4">
-        Přejdeme na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">výpis všech zápisů</a>.
-        Pokud chceme přidat novou akci, tak ještě přejdeme do složky akce.
-        Poté klikneme na tlačítko vytvořit nový soubor (Create new file).
-        Na další stránce nám skočí kurzor na první povinnou položku, a to je název souboru (Name your file).
+        Přejdeme na stránku <a href="https://github.com/natocTo/mestsky-zapisnik/new/master/faqs/svitavy" class="no-underline text-blue" rel="nofollow noopener" target="_blank">vytvoření nového souboru</a>.
+        Na stránce nám skočí kurzor na první povinnou položku, a to je název souboru (Name your file).
         Napíšeme tam název korespondující s tématem našeho zápisu (např: chceme psát o bazénu, tak napíšeme Bazen.md).
-        Pokud přidáváme novou akci, vložíme před název ještě časové razítko události.
-        To si můžeme vygenerovat například <a href="https://www.epochconverter.com/" class="no-underline text-blue" rel="nofollow noopener" target="_blank">na této stránce</a> (výsledek tak bude třeba 1534198840-Ohnostroj.md).
         Koncovka (.md) je povinná a musí tak končit každý nový zápis.
       </p>
 

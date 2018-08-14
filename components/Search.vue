@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mt-2 mb-2">
+  <div class="relative mt-2 mb-8">
     <input
       ref="search"
       class="font-mono p-5 pr-12 text-lg shadow appearance-none border rounded w-full"

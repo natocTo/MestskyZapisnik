@@ -4040,9 +4040,9 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt-edge@^2.0.0-25568071.0dff1b8:
-  version "2.0.0-25568071.0dff1b8"
-  resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25568071.0dff1b8.tgz#02d0e2dfdbd36456e99f2c5664d6d714f56dac10"
+nuxt-edge@^2.0.0-25569931.85a8af5:
+  version "2.0.0-25569931.85a8af5"
+  resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25569931.85a8af5.tgz#7edd410f8414ba9ea482dca0000b9146f410be35"
   dependencies:
     "@babel/core" "7.0.0-rc.1"
     "@nuxtjs/babel-preset-app" "^0.3.0"
@@ -5120,9 +5120,9 @@ punycode@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
-purgecss-webpack-plugin@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/purgecss-webpack-plugin/-/purgecss-webpack-plugin-1.2.0.tgz#6cfba11d8b4150656d5c7ca6c0d32db13ced480f"
+purgecss-webpack-plugin@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/purgecss-webpack-plugin/-/purgecss-webpack-plugin-1.2.1.tgz#d72d310ccad5ae9d110aafb6d934242ad2b0467e"
   dependencies:
     purgecss "^1.0.1"
     webpack-sources "^1.1.0"
@@ -5913,9 +5913,9 @@ table@^4.0.3:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
-tailwindcss@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.6.4.tgz#b0aa8a10c34d3fed7a5f32482ef92d5d416353ee"
+tailwindcss@^0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.6.5.tgz#f692f875c373721d65ccecba5eb16fa949bcbb97"
   dependencies:
     commander "^2.11.0"
     css.escape "^1.5.1"

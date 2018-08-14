@@ -22,7 +22,7 @@
       <line x1="16" y1="12" x2="8" y2="12"></line>
     </svg>
 
-    <span>Předchozí</span>
+    <span>Předchozí <span class="hidden sm:inline-block">zápisy</span></span>
   </button>
 </template>
 
