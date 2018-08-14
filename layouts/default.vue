@@ -2,7 +2,7 @@
   <div class="bg-grey-lightest min-h-screen">
     <nuxt/>
 
-    <footer class="container">
+    <footer class="container py-4">
       <p class="font-mono">
         <small v-once>
           Městský zápisník &copy; {{ new Date().getFullYear() }} |
