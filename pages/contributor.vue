@@ -13,7 +13,7 @@
       </h1>
 
       <p class="text-lg mb-4">
-        Všechny současné zápisky naleznete na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollower noopener" target="_blank">Githubu</a>.
+        Všechny současné zápisy naleznete na <a href="https://github.com/natocTo/mestsky-zapisnik/tree/master/faqs/svitavy" class="no-underline text-blue" rel="nofollower noopener" target="_blank">Githubu</a>.
         To je domov pro miliony zdrojových kódů všemožných projektů. Pohybují se zde primárně programátoři.
         Nyní se mezi ně můžete připojit. Stačí se bezplatně registrovat a již můžete ovlivňovat tento projekt.
         Stanete se takzvanými přispěvateli.
