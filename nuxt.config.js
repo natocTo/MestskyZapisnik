@@ -26,7 +26,12 @@ module.exports = {
       {
         hid: "description",
         name: "description",
-        content: "Užitečné informace a telefonní čísla z tvého města."
+        content: "Všechny informace z města na jednom místě."
+      },
+      {
+        hid: "og:description",
+        name: "og:description",
+        content: "Všechny informace z města na jednom místě."
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
