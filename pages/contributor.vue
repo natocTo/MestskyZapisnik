@@ -79,7 +79,7 @@
 
       <p class="text-lg mb-4">
         Při prohlížení zápisů na tomto webu se vždy v pravé části zápisu zobrazí dvě malé ikonky.
-        Kliknutím na pero se dostane přímo na stránku, kde můžete navrhnout opravu.
+        Kliknutím na pero se dostanete přímo na stránku, kde můžete navrhnout opravu.
       </p>
 
       <p class="text-lg mb-4">
