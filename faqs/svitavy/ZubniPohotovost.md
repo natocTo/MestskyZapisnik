@@ -2,45 +2,6 @@
 
 | Termín               | Adresa                               | Telefon     |
 |----------------------|--------------------------------------|-------------|
-| 01.01.2018           | Svitavy, Purkyňova 249/16            | 731 201 180 |
-| 6.-7.1.2018          | Svitavy, Soudní 1391/3               | 461 531 144 |
-| 13.-14.1.2018        | Opatov 317                           | 461 593 907 |
-| 20. 21. 1. 2018      | Březová n. Svitavou, Brněnská 48     | 608 981 868 |
-| 27.- 28. 1. 2018     | Moravská Třebová,Svitavská 325/36    | 461 352 210 |
-| 3. - 4. 2. 2018      | Svitavy, U Stadionu 1207/42          | 461 532 253 |
-| 10. - 11. 2. 2018    | Městečko Trnávka 5                   | 461 329 181 |
-| 17. - 18. 2. 2018    | Svitavy, Dimitrovova 799/4           | 604 278 684 |
-| 24. - 25. 2. 2018    | Svitavy, Pavlovova 24                | 777 511 011 |
-| 3. - 4. 3. 2018      | Staré Město 134                      | 461 312 501 |
-| 10. - 11. 3. 2018    | Brněnec 90                           | 461 523 140 |
-| 17. - 18. 3. 2018    | Jevíčko, Palackého nám. 20           | 461 326 378 |
-| 24. - 25. 3. 2018    | Jevíčko, Palackého nám. 20           | 461 326 378 |
-| 30.03.2018           | Hradec nad Svitavou 549              | 461 548 230 |
-| 31. 3. - 1. 4. 2018  | Svitavy, Dimitrovova 799/4           | 461 532 970 |
-| 02.04.2018           | Moravská Třebová, Svitavská 36       | 734 113 860 |
-| 7. - 8. 4. 2018      | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
-| 14. - 15. 4. 2018    | Svitavy, Hraniční 9                  | 775 216 543 |
-| 21. - 22. .4. 2018   | Jevíčko, Palackého 20                | 774 326 241 |
-| 28. - 29. 4. 2018    | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
-| 01.05.2018           | Svitavy, Dimitrovova 799/4           | 776 117 026 |
-| 5. - 6. 5. 2018      | Svitavy, Pavlovova 5                 | 461 533 987 |
-| 08.05.2018           | Svitavy, Dimitrovova 799/4           | 461 532 970 |
-| 12. - 13. 5. 2018    | Moravská Třebová, Piaristická 6b     | 461 316 172 |
-| 19. - 20. 5. 2018    | Svitavy, Dimitrovova 799/4           | 606 452 936 |
-| 26. -27. 5. 2018     | Moravská Třebová, Piaristická 6b     | 461 316 172 |
-| 2. - 3. 6. 2018      | Svitavy, Soudní 1391/3               | 461 531 144 |
-| 9. - 10. 6. 2018     | Opatov 317                           | 461 593 907 |
-| 16. - 17. 6. 2018    | Březová n. Svitavou, Brněnská 48     | 608 981 868 |
-| 23. -24. 6. 2018     | Moravská Třebová,Svitavská 325/36    | 461 352 210 |
-| 30. 6. - 1. 7. 2018  | Brněnec 90                           | 461 523 140 |
-| 05.07.2018           | Městečko Trnávka 5                   | 461 329 181 |
-| 06.07.2018           | Svitavy, Dimitrovova 799/4           | 604 278 684 |
-| 7. - 8. 7. 2018      | Svitavy, Pavlovova 24                | 777 511 011 |
-| 14. - 15. 7. 2018    | Staré Město 134                      | 461 312 501 |
-| 21. - 22. 7. 2018    | Svitavy, U Stadionu 1207/42          | 461 532 253 |
-| 28. - 29. 7. 2018    | Jevíčko, Palackého nám. 20           | 461 326 378 |
-| 4. - 5. 8. 2018      | Jevíčko, Palackého nám. 20           | 461 326 378 |
-| 11. - 12. 8. 2018    | Hradec nad Svitavou 549              | 461 548 230 |
 | 18. - 19. 8. 2018    | Svitavy, Dimitrovova 799/4           | 461 532 970 |
 | 25. - 26. 8. 2018    | Moravská Třebová, Svitavská 36       | 734 113 860 |
 | 1. - 2. 9. 2018      | Moravská Třebová, Komenského 1417/22 | 461 312 484 |
