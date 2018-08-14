@@ -16,7 +16,7 @@
       <paginator
         :data="filteredFaqs"
         :page="page"
-        @totalPageChanged="totalPageChanged"
+        @totalPageChanged="page = 1"
       >
         <main slot-scope="{ subset, isFirstPage, isLastPage }">
           <faq
@@ -27,8 +27,8 @@
           ></faq>
 
           <div class="flex items-center justify-between">
-            <previous :disabled="isFirstPage" @click="prevPage"></previous>
-            <next :disabled="isLastPage" @click="nextPage"></next>
+            <previous :disabled="isFirstPage" @click="--page"></previous>
+            <next :disabled="isLastPage" @click="++page"></next>
           </div>
         </main>
       </paginator>
@@ -39,29 +39,30 @@
 </template>
 
 <script>
-import Paginator from "~/components/Paginator.vue";
-import Search from "~/components/Search.vue";
-import Contributor from "~/components/Contributor.vue"
 import Logo from "~/components/Logo.vue";
+import Contributor from "~/components/Contributor.vue"
+import Search from "~/components/Search.vue";
+import Paginator from "~/components/Paginator.vue";
+import Faq from "~/components/Faq.vue";
 import Previous from "~/components/Previous.vue";
 import Next from "~/components/Next.vue";
-import Faq from "~/components/Faq.vue";
 import NoMatch from "~/components/NoMatch.vue";
 import cities from "~/cities.js";
 import scrollTop from "~/utils/scrollTop.js";
+
 const faqs = require.context("~/faqs", true, /\.md/);
 
 export default {
   name: "City",
 
   components: {
-    Paginator,
-    Search,
+    Logo,
     Contributor,
+    Search,
+    Paginator,
+    Faq,
     Previous,
     Next,
-    Logo,
-    Faq,
     NoMatch
   },
 
@@ -80,6 +81,12 @@ export default {
       page: 1,
       search: "",
       faqs: []
+    }
+  },
+
+  watch: {
+    page() {
+      scrollTop();
     }
   },
 
@@ -113,7 +120,7 @@ export default {
 
   methods: {
     loadCityFaqs() {
-      const city = new RegExp(`^\.\/${this.$route.params.city}\/(?!akce)`);
+      const city = new RegExp(`^\.\/${this.$route.params.city}\/`);
 
       this.faqs = faqs.keys()
         .filter(faq => city.test(faq))
@@ -125,22 +132,6 @@ export default {
 
     updateSearch(text) {
       this.search = text;
-    },
-
-    nextPage() {
-      this.page = this.page + 1;
-      scrollTop();
-    },
-
-    prevPage() {
-      this.page = this.page - 1;
-      scrollTop();
-    },
-
-    totalPageChanged(current, previous) {
-      if (current !== previous) {
-        this.page = 1;
-      }
     }
   }
 }

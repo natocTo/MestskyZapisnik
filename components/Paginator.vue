@@ -26,7 +26,7 @@ export default {
 
     perPage: {
       type: Number,
-      default: 20
+      default: 10
     }
   },
 
