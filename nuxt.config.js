@@ -10,9 +10,7 @@ class TailwindExtractor {
   }
 }
 
-const cities = fs
-  .readdirSync(path.join(__dirname, "faqs"))
-  .map(city => `/${city}`);
+let cities = require("./cities.js").map(city => `/${city.path}`);
 
 module.exports = {
   mode: "spa",
