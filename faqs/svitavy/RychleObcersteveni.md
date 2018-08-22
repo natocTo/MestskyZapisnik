@@ -3,7 +3,7 @@
 | Název                         | Adresa                | Telefon     |
 | ----------------------------- | --------------------- | ----------- |
 | Alternativní klub Tyjátr      | Purkyňova 17          | 724 356 196 |
-| Asijské bistro                | T.G. Masaryka 4       | -           |
+| Asijské bistro                | T.G. Masaryka 4       |             |
 | Bistro Kinn Do                | Náměstí Míru 9        | 608 452 567 |
 | Bufet Mr. Grico               | Náměstí Míru 90       | 603 593 159 |
 | Bufet U Rozárky               | Bratří Čapků 2106/1b  | 739 874 189 |

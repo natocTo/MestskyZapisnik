@@ -3,11 +3,11 @@
 | Název                                | Telefon                               | Email                               |
 | ------------------------------------ | ------------------------------------- | ----------------------------------- |
 | Atletika                             | 602 534 464, 605 909 011              | drahomir.kunzel@seznam.cz           |
-| Basketbal                            | -                                     | hejduk@hejdukcz.cz, spacek@nemsy.cz |
-| Floorbal                             | -                                     | hnat@svitavy.cz                     |
-| Fotbal                               | -                                     | cizek@svitavy.cz                    |
+| Basketbal                            |                                       | hejduk@hejdukcz.cz, spacek@nemsy.cz |
+| Floorbal                             |                                       | hnat@svitavy.cz                     |
+| Fotbal                               |                                       | cizek@svitavy.cz                    |
 | Lední hokej                          | 723 993 880                           | mir.sedlak@centrum.cz               |
-| Lyžování                             | -                                     | emp.kucera@unet.cz                  |
+| Lyžování                             |                                       | emp.kucera@unet.cz                  |
 | POWERLIFTING - TJ Svitavy            | 605 977 073                           | novak@svi.cz                        |
 | Sportovní gymnastika                 | 607 504 171                           | srotv@quick.cz                      |
 | Stolní tenis - předseda              | 606 887 107                           | vlastimil.vales@atlas.cz            |
@@ -16,7 +16,7 @@
 | Automotoklub Svitavy                 | 724 871 115, 606 103 476              | speedway.svitavy@atlas.cz           |
 | SK Sportcentrum Svitavy-Lány         | 777 550 730                           | manaom@quick.cz                     |
 | I. Hokejbalový klub Svitavy          | 606 315 275                           | 1hbcsvitavy@seznam.cz               |
-| TJ Sršni Svitavy                     | -                                     | hokejbal.sy@seznam.cz               |
+| TJ Sršni Svitavy                     |                                       | hokejbal.sy@seznam.cz               |
 | Dynamo Svitavy                       | 722 642 257                           | bcdsvitavy@seznam.cz                |
 | Black Panther                        | 736 754 647                           | Nika.ky@seznam.cz                   |
 | Samuraj klub bojových umění a sportů | 605 831 968                           | aikidosvitavy@seznam.cz.nbsp;       |

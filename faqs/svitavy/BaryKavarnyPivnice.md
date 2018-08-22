@@ -14,7 +14,7 @@
 | WingsClub                       | Soudní 1                 | 775 636 304              |
 | Alternativní klub Tyjátr        | Purkyňova 17             | 724 356 196              |
 | Restaurace a Bowling Maják      | Mýtní 6                  | 461 321 321              |
-| Café Dušambo                    | Náměstí Míru 59          | -                        |
+| Café Dušambo                    | Náměstí Míru 59          |                          |
 | Caffe bar Raffaello             | Náměstí Míru 25          | 603 746 298              |
 | Dart Club                       | Náměstí Míru 6           | 775 366 066              |
 | Herna a Bar Brooklyn            | Revoluční 352/1a         | 736 261 878              |
