@@ -1,19 +1,5 @@
 ## Program kina
 
-### Srpen
-
-| Datum             | Program                                |
-|-------------------|----------------------------------------|
-| 15.08.2018 21:00  | Letní kino, Válka o Planetu Opic       |
-| 18.08.2018 21:00  | Letní kino, Vetřelec: Covenant         |
-| 20.08.2018 21:00  | Letní kino, Fakjů pane učiteli 3       |
-| 21.08.2018 19:30  | Jan Palach                             |
-| 22.08.2018 21:00  | Letní kino, Bába z ledu                |
-| 23.08.2018 19:30  | Kryštůfek Robin                        |
-| 24.08.2018 19:30  | Slender Man                            |
-| 25.08.2018 21:00  | Letní kino, Jumanji: Vítejte v džungli |
-| 30.08.2018 19:30  | Důvěrný nepřítel                       |
-
 ### Září
 
 | Datum            | Program                                         |
