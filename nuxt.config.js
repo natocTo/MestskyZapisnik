@@ -1,8 +1,8 @@
-let fs = require("fs");
-let path = require("path");
-let glob = require("glob-all");
-let PurgecssPlugin = require("purgecss-webpack-plugin");
-let sanitizeHtml = require("sanitize-html");
+import fs from "fs";
+import path from "path";
+import glob from "glob-all";
+import PurgecssPlugin from "purgecss-webpack-plugin";
+import sanitizeHtml from "sanitize-html";
 
 class TailwindExtractor {
   static extract(content) {
@@ -12,7 +12,7 @@ class TailwindExtractor {
 
 let cities = require("./cities.js").map(city => `/${city.path}`);
 
-module.exports = {
+export default {
   mode: "spa",
   env: {
     repository: "https://github.com/natocTo/mestsky-zapisnik"

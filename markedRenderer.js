@@ -1,4 +1,4 @@
-let marked = require("marked");
+import marked from "marked";
 
 let renderer = new marked.Renderer();
 
@@ -20,4 +20,4 @@ renderer.table = (header, body) => {
   `;
 };
 
-module.exports = renderer;
+export default renderer;
