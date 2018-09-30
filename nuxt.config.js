@@ -4,6 +4,8 @@ import glob from "glob-all";
 import PurgecssPlugin from "purgecss-webpack-plugin";
 import sanitizeHtml from "sanitize-html";
 
+import markedRenderer from "./markedRenderer.js";
+
 class TailwindExtractor {
   static extract(content) {
     return content.match(/[A-z0-9-:/]+/g) || [];
@@ -73,7 +75,7 @@ export default {
           {
             loader: "markdown-loader",
             options: {
-              renderer: require(path.join(__dirname, "markedRenderer.js")),
+              renderer: markedRenderer,
               headerIds: false,
               sanitize: true,
               sanitizer: sanitizeHtml

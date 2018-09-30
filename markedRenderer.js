@@ -1,8 +1,7 @@
 import marked from "marked";
 
-let renderer = new marked.Renderer();
-
-let originalLinkRenderer = renderer.link;
+const renderer = new marked.Renderer();
+const originalLinkRenderer = renderer.link;
 
 renderer.link = (href, title, text) => {
   const html = originalLinkRenderer.call(renderer, href, title, text);
