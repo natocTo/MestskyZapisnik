@@ -9,7 +9,7 @@ window.requestAnimFrame = (function() {
   );
 })();
 
-module.exports = function scrollToY(scrollTargetY, speed, easing) {
+export default function scrollToY(scrollTargetY, speed, easing) {
   var scrollY = window.scrollY || document.documentElement.scrollTop,
     scrollTargetY = scrollTargetY || 0,
     speed = speed || 800,
