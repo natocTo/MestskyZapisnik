@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-8">
+  <div class="container mx-auto py-8 py-4 px-2">
     <div class="flex justify-between items-center pb-4">
       <logo :city="city"></logo>
       <contributor></contributor>

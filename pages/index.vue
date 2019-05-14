@@ -1,5 +1,5 @@
 <template>
-  <main class="container mx-auto"></main>
+  <main class="container mx-auto py-4 px-2"></main>
 </template>
 
 <script>

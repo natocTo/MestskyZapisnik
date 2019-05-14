@@ -1,5 +1,5 @@
 <template>
-  <main class="container mx-auto pt-3">
+  <main class="container mx-auto py-4 px-2">
     <div class="pt-8 pb-2 text-right">
       <nuxt-link
         class="p-2 inline-block text-black border-2 border-black no-underline rounded font-semibold hover:bg-white"

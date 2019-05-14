@@ -2,7 +2,7 @@
   <div
     class="font-mono tracking-wider leading-normal sm:text-justify max-w-md py-4 mb-16"
   >
-    <h2 class="text-3xl pb-2">
+    <h2 class="text-3xl font-bold pb-2">
       Nebylo nic nalezeno :(
     </h2>
 

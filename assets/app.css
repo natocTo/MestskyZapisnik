@@ -1,10 +1,14 @@
 /* purgecss start ignore */
-.page-enter-active, .page-leave-active,
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .4s ease;
+.page-enter-active,
+.page-leave-active,
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s ease;
 }
-.page-enter, .page-leave-active,
-.fade-enter, .fade-leave-active {
+.page-enter,
+.page-leave-active,
+.fade-enter,
+.fade-leave-active {
   opacity: 0;
 }
 
@@ -15,18 +19,18 @@
 svg .line1 {
   stroke-dasharray: 2px;
   stroke-dashoffset: 2px;
-  animation: offset .4s linear forwards;
+  animation: offset 0.4s linear forwards;
 }
 
 svg .line2,
 svg .line3 {
   stroke-dasharray: 10px;
   stroke-dashoffset: 11px;
-  animation: offset .8s linear forwards;
+  animation: offset 0.8s linear forwards;
 }
 
 svg .line2 {
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 svg .line3 {
@@ -47,6 +51,7 @@ svg .line3 {
 
 .faq h2 {
   font-size: 1.8rem;
+  font-weight: 700;
   color: #22292f;
   margin-bottom: 0.75rem;
 }
@@ -58,7 +63,7 @@ svg .line3 {
 }
 
 .faq h3:before {
-  content: '#';
+  content: "#";
   display: inline-block;
   margin-top: 1rem;
   margin-right: 5px;
