@@ -61,10 +61,7 @@ export default {
   css: ["~/assets/tailwind.css", "~/assets/app.css"],
   build: {
     extractCSS: true,
-    postcss: [
-      require("tailwindcss")(path.join(__dirname, "tailwind.js")),
-      require("autoprefixer")
-    ],
+    postcss: [require("tailwindcss"), require("autoprefixer")],
     extend(config, { isDev }) {
       config.module.rules.push({
         test: /\.md$/,

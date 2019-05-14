@@ -2,19 +2,19 @@
   <div class="relative mt-2 mb-8">
     <input
       ref="search"
-      class="font-mono p-5 pr-12 text-lg shadow appearance-none border rounded w-full"
+      class="font-mono p-2 pr-12 text-lg shadow appearance-none border rounded w-full"
       type="text"
       :value="value"
       v-on="listeners"
       v-bind="$attrs"
-    >
+    />
 
     <transition name="fade">
       <button
         v-if="value.length > 0"
         @click="$emit('input', '')"
         title="Vymazat hledání"
-        class="absolute pin-y pin-r mt-2 mr-2 focus:outline-none"
+        class="absolute top-0 right-0 mt-2 mr-2 focus:outline-none"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -35,28 +35,28 @@
 </template>
 
 <script>
-export default {
-  inheritAttrs: false,
+  export default {
+    inheritAttrs: false,
 
-  props: {
-    value: {
-      type: String,
-      required: true,
-      default: ""
-    }
-  },
+    props: {
+      value: {
+        type: String,
+        required: true,
+        default: ""
+      }
+    },
 
-  mounted() {
-    this.$refs.search.focus();
-  },
+    mounted() {
+      this.$refs.search.focus();
+    },
 
-  computed: {
-    listeners() {
-      return {
-        ...this.$listeners,
-        input: e => this.$emit('input', e.target.value)
+    computed: {
+      listeners() {
+        return {
+          ...this.$listeners,
+          input: e => this.$emit("input", e.target.value)
+        };
       }
     }
-  }
-}
+  };
 </script>

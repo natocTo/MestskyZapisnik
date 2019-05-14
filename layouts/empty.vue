@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey-lightest min-h-screen">
+  <div class="bg-gray-200 min-h-screen">
     <nuxt/>
   </div>
 </template>

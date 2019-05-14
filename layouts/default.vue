@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-grey-lightest min-h-screen">
+  <div class="bg-gray-200 min-h-screen">
     <nuxt/>
 
-    <footer class="container py-4">
+    <footer class="container mx-auto py-4">
       <p class="font-mono">
         <small v-once>
           Městský zápisník &copy; {{ new Date().getFullYear() }} |

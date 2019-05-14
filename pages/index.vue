@@ -1,9 +1,9 @@
 <template>
-  <main class="container"></main>
+  <main class="container mx-auto"></main>
 </template>
 
 <script>
-export default {
-  middleware: 'svitavy'
-}
+  export default {
+    middleware: "svitavy"
+  };
 </script>
