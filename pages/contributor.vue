@@ -9,7 +9,7 @@
     </div>
 
     <article
-      class="font-mono tracking-wide leading-normal sm:text-justify max-w-md py-4 mb-16"
+      class="font-mono tracking-wide leading-normal sm:text-justify max-w-2xl py-4 mb-16"
     >
       <h1 class="text-3xl mb-8">
         Jak přidat, upravit či vymazat zápis.
