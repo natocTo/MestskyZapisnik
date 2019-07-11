@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import glob from "glob-all";
 import PurgecssPlugin from "purgecss-webpack-plugin";
-import sanitizeHtml from "sanitize-html";
 
 import markedRenderer from "./markedRenderer.js";
 
@@ -73,9 +72,7 @@ export default {
             loader: "markdown-loader",
             options: {
               renderer: markedRenderer,
-              headerIds: false,
-              sanitize: true,
-              sanitizer: sanitizeHtml
+              headerIds: false
             }
           }
         ]
